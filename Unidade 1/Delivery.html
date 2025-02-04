@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Delivery</title>
+    </head>
+    <Body>
+        <h1>Cadastro de Delivery</h1>
+        <form>
+            <label>Endereço</label> <input type="text" name="endereço" value="Digite o endereço" size="40" maxlength="150"/>
+            <br><br>
+            <label>Data do pedido</label> <input type="date" name="Data_pedido"/>
+            <br><br>
+            <label>Senha de Autorização</label> <input type="password"  name="Senha"/>
+            <br><br>
+            <label>Data e hora do pedido</label> <input type="datetime-local" name="datahora_pedido"/>
+            <br><br>
+            <input type="radio" id="alterntiva1" name="alternativa" value="A"/> <label for="alterntiva1">Casa</label>
+            <input type="radio" id="alterntiva2" name="alternativa" value="B"/> <label for="alterntiva2">Prédio</label>
+            <input type="radio" id="alterntiva3" name="alternativa" value="C"/> <label for="alterntiva3">Comércio</label>
+            <input type="radio" id="alterntiva4" name="alternativa" value="D"/> <label for="alterntiva4">Nenhuma das opções</label>
+            <br><br>
+            <input type="checkbox" id="alterntiva1" name="alternativa" value="A"/> <label for="alterntiva1">Casa</label>
+            <input type="checkbox" id="alterntiva2" name="alternativa" value="B"/> <label for="alterntiva2">Prédio</label>
+            <input type="checkbox" id="alterntiva3" name="alternativa" value="C"/> <label for="alterntiva3">Comércio</label>
+            <input type="checkbox" id="alterntiva4" name="alternativa" value="D"/> <label for="alterntiva4">Nenhuma das opções</label>
+            <br><br>
+            <label>Telefone</label> <input type="tel" name="telefone" size="20"/>
+            <br><br>
+            <label>Email</label> <input type="email" name="email" size="50" maxlength="80"/>
+            <br><br>
+            <label>Pesquise</label> <input type="search" name="busca" size="50" maxlength="80"/>
+            <br><br>
+            <label>Site</label> <input type="URL" name="site" size="50" maxlength="80"/>
+            <br><br>
+            <label>Tipo de Endereço</label>
+            <select name="tp_endereço" id="tp_endereço">
+                <option value="AC">Casa</option>
+                <option value="AC">Prédio</option>
+                <option value="AC">Comércio</option>
+                <option value="AC">Nenhuma das Opções</option>
+            </select>
+            <br><br>
+            <label>Mensagem</label>
+            <br>
+            <textarea name="texto" id="texto" rows="10" cols="60"></textarea>
+            <br><br>
+            <input type="submit" name="enviar" value="salvar"/>
+            <br><br>
+            <input type="button" name="chamar" value="chamar" onclick="alert('Primeira mensagem!!!')"/>
+        </form>
+    </Body>
+</html>

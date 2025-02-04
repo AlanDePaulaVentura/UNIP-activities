@@ -1,0 +1,5 @@
+#Lista ul li {display: inline;}
+#Lista ul {padding: 2px;}
+#Lista ul li:hover {background-color: rgb(204, 51, 51);
+                    color: gray;
+                    border-bottom: 3px solid blue;}
